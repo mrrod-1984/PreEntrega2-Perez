@@ -18,9 +18,10 @@ const ItemListContainer = () => {
                     setProductos(res.filter((productos) => productos.category === category))
                 } else {
                 setProductos(res);
-                }
+                }                
             })
-    }, [])
+            .catch(error => console.error("Error fetching data:", error));
+    }, [category])
 
     return (
         <div>

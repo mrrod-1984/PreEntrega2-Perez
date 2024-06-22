@@ -15,7 +15,7 @@ const ItemDetailContainer = () => {
          .then((res) => {
               setItem(res)
          })  
-    }, [])
+    }, [id])
     
 
 
