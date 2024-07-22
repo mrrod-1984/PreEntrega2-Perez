@@ -24,7 +24,7 @@ Permite a los usuarios navegar por productos, añadir productos al carrito y fin
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/JeanMontealegre/EntregaFinalMontealegreReact.git
+   git clone https://github.com/mrrod-1984/PreEntrega2-Perez
    cd tu-repositorio
    ```
 
