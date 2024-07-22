@@ -1,8 +1,55 @@
-# React + Vite
+# E-commerce React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Aplicación de e-commerce desarrollada en React de venta de productos de una tienda departamental.
+Permite a los usuarios navegar por productos, añadir productos al carrito y finalizar la compra.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Usadas
+
+- React
+- Firebase Firestore
+- React Router
+- Tailwind CSS
+- Vite
+
+## Instrucciones de Uso e Instalación
+
+### Requisitos
+
+- Node.js y npm instalados en tu sistema
+
+### Instalación
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/JeanMontealegre/EntregaFinalMontealegreReact.git
+   cd tu-repositorio
+   ```
+
+2. Instala las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+3. Configura Firebase:
+
+   - Crea un proyecto en Firebase.
+   - Habilita Firestore.
+   - Descarga tu archivo `serviceAccountKey.json` desde la configuración de Firebase y colócalo en la carpeta raíz del proyecto.
+   - Configura tus credenciales de Firebase en `firebase/config.js`.
+
+4. Carga los productos a Firestore:
+   ```bash
+   node items.js
+   ```
+
+### Ejecución en Desarrollo
+
+Para correr la aplicación en modo desarrollo, ejecuta:
+
+```bash
+npm run dev
+```
